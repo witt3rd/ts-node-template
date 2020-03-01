@@ -1,0 +1,26 @@
+{
+  "name": "ts-node-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Donald Thompson <witt3rd@witt3rd.com> (http://witt3rd.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.7.7",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "typescript": "^3.8.3"
+  }
+}
